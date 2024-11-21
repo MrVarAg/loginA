@@ -1,11 +1,13 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import SignIn from './src/screens/login'; // Asegúrate de que la ruta al archivo sea correcta
+import SignIn from './src/screens/login';
+import Register from './src/screens/register';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SignIn />
+      {/*<SignIn />*/}
+      <Register />
     </View>
   );
 }
